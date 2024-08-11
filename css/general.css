@@ -1,0 +1,52 @@
+/* 
+#F2E96B
+#F2DF80
+#F29863
+#F2522E
+#F25D50
+*/
+
+.grid-5-cols {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.grid-4-cols {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-3-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-2-cols {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-2cols-1col {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.grid-1col-2cols {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.grid-5-cols,
+.grid-4-cols,
+.grid-3-cols,
+.grid-2-cols,
+.grid-2cols-1col,
+.grid-1col-2cols {
+  max-width: 130rem;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: stretch;
+  gap: 1.6rem;
+  padding: 3.2rem;
+  border-radius: 6.4rem;
+}
